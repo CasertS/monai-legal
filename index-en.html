@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MonAI – Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.6; }
+    h1 { font-size: 1.6rem; } h2 { font-size: 1.1rem; margin-top: 2rem; }
+    a { color: #0a6; }
+  </style>
+</head>
+<body>
+  <p><a href="index.html">🇮🇹 Versione italiana</a></p>
+  <h1>Privacy Policy — MonAI</h1>
+  <p><strong>Last updated:</strong> July 2026<br>
+  <strong>Developer:</strong> Team MonAI — <a href="mailto:monai.support@gmail.com">monai.support@gmail.com</a></p>
+
+  <h2>What MonAI does</h2>
+  <p>MonAI is a personal expense manager with an AI assistant. All of your financial data (accounts, transactions, categories, budgets, investments) is stored <strong>exclusively on your device</strong> and is never transmitted to MonAI servers nor shared with third parties.</p>
+
+  <h2>Data we collect</h2>
+  <p>MonAI does not collect or transmit any personal data of its own. The app has no backend, requires no registration and creates no accounts.</p>
+
+  <h2>Artificial Intelligence</h2>
+  <p>If you choose to use an AI provider (Google Gemini, Anthropic Claude, OpenAI GPT), the text you type in the chat is sent directly to the provider you selected, using your personal API key. MonAI does not see or log this traffic. API keys are stored in your device's Keychain/Keystore and never leave the device.</p>
+  <p>If the "Data analysis" option is on (Settings → AI Connection), an <strong>aggregate-only</strong> summary of your data is sent to the provider together with your request — monthly, category and subcategory totals, account balances, budgets, savings goals, financial score, investment value and changes, recurring payments and the end-of-month forecast computed by the app — so the assistant can answer questions like "how much did I spend in May?". Individual transactions and their descriptions are never sent. You can turn the option off at any time: the AI will still work for logging transactions.</p>
+  <p><strong>Importing bank statements as PDF.</strong> If you choose to import a bank statement in PDF format (Settings → Backup &amp; export → Import), the file <strong>is sent in full to Google Gemini</strong>, which extracts the transactions. In this case — unlike the rest of the app — all the transactions contained in the document are transmitted. This only happens after an explicit warning and your confirmation, using your personal Gemini key; MonAI does not keep the file or the extracted data on any server. Importing CSV and Excel files happens entirely on the device instead, without sending anything.</p>
+  <p>Provider privacy policies:<br>
+  • <a href="https://policies.google.com/privacy">Google Gemini</a><br>
+  • <a href="https://www.anthropic.com/privacy">Anthropic Claude</a><br>
+  • <a href="https://openai.com/privacy">OpenAI GPT</a></p>
+
+  <h2>Voice dictation</h2>
+  <p>If you use dictation (hold the MonAI button and speak), speech recognition is performed by the operating system's native service (Apple on iOS, Google on Android): depending on the device and language, audio may be processed on Apple's or Google's servers under their privacy policies. MonAI only receives the transcribed text and does not record or store audio. Dictation is active only while you hold the button; you can always type instead of dictating.</p>
+
+  <h2>Market prices</h2>
+  <p>To update the value of cryptocurrencies, metals and listed securities, MonAI queries public third-party sources (CoinGecko, Yahoo Finance, gold-api.com, frankfurter.dev for exchange rates; OpenFIGI for looking up securities by ISIN). To show the logo of an asset you add, the app may query public logo and icon services. In all these requests only the asset's name, ticker or ISIN is sent (e.g. "bitcoin", "NVDA") — never amounts, holdings or other personal data. Requests happen only when the app or the Assets section is opened.</p>
+
+  <h2>Biometric data</h2>
+  <p>If you enable Face ID/biometric lock, MonAI uses the operating system's native APIs. MonAI has no access to biometric data, which stays in the device's Secure Enclave.</p>
+
+  <h2>Backups</h2>
+  <p>Backups and exports (JSON, CSV, Excel, PDF) are generated on the device and saved to local storage or shared through the apps you choose. MonAI does not upload backups to its own servers. On Android the app's database is also excluded from the operating system's automatic cloud backup.</p>
+
+  <h2>Notifications</h2>
+  <p>Notifications (budget alerts, recurring payment reminders, investment changes) are generated and scheduled locally by the device. No third-party push notification services are used and no data leaves the phone.</p>
+
+  <h2>Payments</h2>
+  <p>The current version of MonAI contains no in-app purchases: all features, including MonAI Plus ones, are free and no payment details are requested. If a subscription is introduced in the future, it will be handled by Apple (App Store) or Google (Google Play): payments and related data (card, billing) will be processed exclusively by those providers under their privacy policies, and MonAI will only receive the information of whether the subscription is active or not.</p>
+
+  <h2>Contact</h2>
+  <p>For privacy questions: <a href="mailto:monai.support@gmail.com">monai.support@gmail.com</a></p>
+
+  <p><a href="terms-en.html">Terms and Conditions →</a></p>
+</body>
+</html>
